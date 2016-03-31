@@ -12,8 +12,7 @@ module.exports = {
   attributes: {
     empresas_id: {
       type: 'integer',
-      required: true,
-      size: 24
+      required: true
     },
     centro_operacion: {
       type: 'string',
