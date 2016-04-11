@@ -34,7 +34,9 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  'GET /rutas/horarios/:idOrigen/:idDestino/:fecha': 'RutasController.horarios'
 
   /***************************************************************************
   *                                                                          *

@@ -34,13 +34,13 @@ module.exports = {
       type: 'time',
       required: true
     },
-    ruta_id : {
-      type: 'integer',
-      required: true
+    ruta : {
+      model: 'Rutas',
+      columnName: 'ruta_id'
     },
-    vehiculo_id : {
-      type: 'integer',
-      required: true
+    vehiculo : {
+      model: 'Vehiculos',
+      columnName: 'vehiculo_id'
     },
     observacion_id : {
       type: 'integer',

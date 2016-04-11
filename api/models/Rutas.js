@@ -18,13 +18,13 @@ module.exports = {
       type: 'integer',
       required: true
     },
-    origen_id: {
-      type: 'integer',
-      required: true
+    origen: {
+      model: 'Lugares',
+      columnName: 'origen_id'
     },
-    destino_id: {
-      type: 'integer',
-      required: true
+    destino: {
+      model: 'Lugares',
+      columnName: 'destino_id'
     },
     sortOrder: {
       type: 'integer',

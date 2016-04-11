@@ -10,9 +10,9 @@ module.exports = {
   autoUpdatedAt: false,
   tableName: 'vehiculos',
   attributes: {
-    empresas_id: {
-      type: 'integer',
-      required: true
+    empresa: {
+      model: 'Empresas',
+      columnName: 'empresas_id'
     },
     centro_operacion: {
       type: 'string',
